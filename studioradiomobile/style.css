@@ -1,0 +1,357 @@
+/*
+Theme Name:     studioRadioMobile
+Description:    theme from mediacoms
+Author:         christophe lacroix
+Template:       mediacoms
+Author URI:     https://lacroix-c.fr
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+header {
+    width: 100%;
+    height: 44rem;
+    padding-top: 3.18675rem;
+    background-color: #523f6d;
+    
+}
+
+
+header .container,
+header .container-fuid,
+header .row {
+    height: 100%;
+}
+
+.headerVideo {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 46rem;
+
+    text-align: right;
+}
+
+.headerText {
+    z-index: 3;
+    position: relative;
+}
+
+.headerGradient {
+    z-index: 2;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 46rem;
+
+/* For Safari 5.1 to 6.0 */
+background: -webkit-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+/* For Opera 11.1 to 12.0 */
+background: -o-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+/* For Firefox 3.6 to 15 */
+background: -moz-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+
+background-image: linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+}
+
+
+.headerGradient270 {
+    z-index: 2;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 33.875rem;
+
+/* For Safari 5.1 to 6.0 */
+background: -webkit-linear-gradient(270deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+/* For Opera 11.1 to 12.0 */
+background: -o-linear-gradient(270deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+/* For Firefox 3.6 to 15 */
+background: -moz-linear-gradient(270deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+
+background-image: linear-gradient(270deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+}
+
+.page-template-noHeaderFullWidth .content-area {
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+ 
+.page-template-noHeaderFullWidth .site {
+margin:0px;
+}
+footer{
+    background-image: url("../studioradiomobile/assets/images/footer.jpg");
+    bottom:0;
+}
+
+.mediaQuery-center-end {
+    align-self: center;
+}
+/*barre violette du haut*/
+.topBar{
+    margin-top:1.8%;
+}
+
+/* ********* Button top scroll to the top ********* */
+/* ************************************************ */
+
+html {
+    scroll-behavior: smooth;
+    }
+
+#btnUp {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #523f6d;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    }
+    
+    #btnUp:hover {
+    background-color: #A3B745;
+    }
+
+    .text-orange {
+        color: #A3B745;
+    }
+
+    .menu-item-type-custom, .menu-item-object-custom {
+        color: #A3B745;
+    }
+    #nav-link a{
+        color: #A3B745!important;
+    }
+
+    
+    #menu-item-356 a:hover {
+        color: #37003d;
+    }
+    
+/*taille des btn des modules*/
+.btneg a{
+	min-width: 15em!important;
+}
+.btUe a {
+	min-width: 14em!important;
+}
+
+
+/* ********* MEDIA QUERIES ********* */
+/* ********************************* */
+
+@media screen and (max-width: 540px) {
+    .mediaQuery-center-end {
+        align-self: flex-end;
+        padding-bottom: 3rem;
+    }
+    header {
+        width: 100%;
+        height: 37rem;
+        padding-top: 3.18675rem;
+        background-color: #523f6d;
+    }
+    .headerVideo {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 37rem;
+
+        text-align: right;
+    }
+    .headerGradient {
+        z-index: 2;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 37rem;
+
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+    /* For Firefox 3.6 to 15 */
+    background: -moz-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+
+    background-image: linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+    }
+
+    .headerTitleBold {
+        font-weight: 800;
+        font-size: 3.5rem;
+        line-height: 2rem;
+        opacity: 0.4;
+
+        padding: 0;
+        margin: 0;
+    }
+
+    .headerTitleLight {
+        font-weight: 300;
+        font-size: 3rem;
+        line-height: 2rem;
+        opacity: 0.8;
+
+        padding: 0;
+        margin: 0;
+    }
+    .topBar{
+        margin-top:10%;
+        max-width: 100%;
+        height: 50px;
+    }
+}
+
+/* ************************************ */
+/* ************************************ */
+
+@media screen and (max-width: 992px) {
+    .mediaQuery-center-end {
+        align-self: flex-end;
+        padding-bottom: 3rem;
+    }
+    header {
+        width: 100%;
+        height: 38rem;
+        padding-top: 6rem;
+
+        background-color: #523f6d;
+    }
+    .headerVideo {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 38rem;
+
+        text-align: right;
+    }
+    .headerGradient {
+        z-index: 2;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 38rem;
+
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+    /* For Firefox 3.6 to 15 */
+    background: -moz-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+
+    background-image: linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+    }
+    .headerTitleBold {
+        font-weight: 800;
+        font-size: 6rem;
+        line-height: 4.5rem;
+        opacity: 0.4;
+
+        padding: 0;
+        margin: 0;
+    }
+
+    .headerTitleLight {
+        font-weight: 300;
+        font-size: 4rem;
+        line-height: 2rem;
+        opacity: 0.8;
+
+        padding: 0;
+        margin: 0;
+    }
+	/*taille des btn des modules*/
+.btneg a{
+	min-width: 14em!important;
+
+}
+.btUe a {
+	min-width: 12em!important;
+	min-height: 4em!important;
+	max-height: 4em!important;
+}
+.topBar{
+    margin-top:2.7%;
+    max-width: 100%;
+    height: 50px;
+}
+}
+
+
+@media screen and (max-width: 524px) {
+    .mediaQuery-center-end {
+        align-self: flex-end;
+        padding-bottom: 3rem;
+    }
+    header {
+        width: 100%;
+        height: 35rem;
+        padding-top: 3.18675rem;
+        background-color: #523f6d;
+    }
+    .headerVideo {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 38rem;
+
+        text-align: right;
+    }
+    .headerGradient {
+        z-index: 2;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 38rem;
+
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+    /* For Firefox 3.6 to 15 */
+    background: -moz-linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+
+    background-image: linear-gradient(90deg, #523f6d 0%, #523f6d 15%, rgba(205, 129, 53, 0) 78%, rgba(205, 129, 53, 0) 100%);
+    }
+
+    .headerTitleBold {
+        font-weight: 800;
+        font-size: 3rem;
+        line-height: 3rem;
+        opacity: 0.4;
+
+        padding: 0;
+        margin: 0;
+    }
+
+    .headerTitleLight {
+        font-weight: 300;
+        font-size: 2.75rem;
+        line-height: 1.25rem;
+        opacity: 0.8;
+
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
